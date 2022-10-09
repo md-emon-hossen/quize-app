@@ -1,0 +1,40 @@
+/* text input component */
+.textInput {
+    width: 98%;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    padding: 2px;
+}
+
+.textInput input {
+    border: none;
+    outline: none;
+    height: 75%;
+    width: 100%;
+    padding: 0.3rem 0.7rem;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.textInput span {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem 0;
+    margin-right: 25px;
+}
